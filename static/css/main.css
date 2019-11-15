@@ -40,11 +40,11 @@ body {
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.4;
-	color: #ddd;
+	color: #222222;
 	text-align: left;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-	background-color: #1b1b1b;
+	background-color: #ffffff;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -141,7 +141,7 @@ dd {
 blockquote {
 	padding: 0 1rem;
 	margin: 0 0 1rem 1rem;
-	border-left: 5px solid #f8ae00;
+	border-left: 5px solid #999999;
 }
 
 blockquote footer {
@@ -174,13 +174,13 @@ sup {
 }
 
 a {
-	color: #f8ae00;
+	color: #a51919;
 	text-decoration: none;
 	background-color: transparent;
 }
 
 a:hover {
-	color: #fff;
+	color: #000;
 	text-decoration: underline;
 }
 
@@ -198,13 +198,13 @@ pre {
 	margin-bottom: 1rem;
 	overflow: auto;
 	-ms-overflow-style: scrollbar;
-	background-color: #111;
+	background-color: rgb(240, 239, 239);
 }
 
 code {
 	padding: 1px 3px;
-	color: #e44;
-	background-color: #111;
+	color: #222;
+	background-color: rgb(240, 239, 239);
 	border-radius: 2px;
 }
 
@@ -229,7 +229,7 @@ figure {
 
 figcaption {
 	padding: .5rem;
-	background-color: #111;
+	background-color: #888;
 }
 
 img {
@@ -247,15 +247,15 @@ table {
 	margin-bottom: 1rem;
 	border-spacing: 0;
 	border-collapse: collapse;
-	border-top: 1px solid #ddd;
-	border-left: 1px solid #ddd;
+	border-top: 1px solid #222222;
+	border-left: 1px solid #222222;
 }
 
 td,
 th {
 	padding: .3125rem .625rem;
-	border-right: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #222222;
+	border-bottom: 1px solid #222222;
 }
 
 caption {
@@ -386,7 +386,7 @@ summary {
 }
 
 mark {
-	background-color: #f8ae00;
+	background-color: #999999;
 }
 
 .mt {
@@ -410,21 +410,21 @@ mark {
 }
 
 .btn {
-	background-color: #111;
+	background-color: rgb(228, 225, 225);
 	border-radius: 3px;
 }
 
 .btn:hover {
 	color: #fff;
-	background-color: #000;
+	background-color: #222;
 }
 
 /* Header */
 .header {
 	margin: 0 0 .3125rem;
 	overflow: auto;
-	background-color: #2a2a2a;
-	border-color: #333;
+	background-color: #fff;
+	border-color: #fff;
 	border-style: solid;
 	border-width: 0 0 1px;
 }
@@ -432,9 +432,9 @@ mark {
 .block {
 	padding: .875rem;
 	margin: .1875rem 0;
-	color: #eee;
-	background-color: #2a2a2a;
-	border-color: #333;
+	color: #000;
+	background-color: #fff;
+	border-color: #999;
 	border-style: solid;
 	border-width: 1px 0;
 }
@@ -459,7 +459,7 @@ mark {
 }
 
 .logo:hover {
-	color: #f8ae00;
+	color: #999999;
 	text-decoration: none;
 }
 
@@ -488,7 +488,7 @@ mark {
 	border: 0;
 	border-left: 1px solid #333;
 	outline: 0;
-	fill: #f8ae00;
+	fill: #999999;
 }
 
 .main-nav__btn:focus,
@@ -545,7 +545,7 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 }
 
 .main-nav__item:hover {
-	background-color: #444;
+	background-color: rgb(243, 242, 242);
 }
 
 .main-nav__item--active {
@@ -716,14 +716,14 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 	width: 100%;
 	min-height: 1px; /* Workaround for IE11 flexbox img height issue https://github.com/philipwalton/flexbugs/issues/75 */
 	text-align: center;
-	background-color: #1f1f1f;
+	background-color: #888;
 }
 
 .featured__figcaption {
 	width: 100%;
 	padding: 1rem;
 	text-align: left;
-	background-color: #111;
+	background-color: #888;
 }
 
 .featured__credit::before {
@@ -740,7 +740,7 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 	flex: 1 0 auto;
 	margin: 0;
 	overflow: auto;
-	color: #c3c3c3;
+	color: #222222;
 }
 
 .post__content p:last-child {
@@ -749,7 +749,7 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 
 .post__meta {
 	font-size: .875rem;
-	color: #999;
+	color: #888;
 }
 
 .post__meta-published,
@@ -771,13 +771,13 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 .toc {
 	padding: .5rem;
 	margin-bottom: 1rem;
-	color: #f8ae00;
+	color: #999999;
 	list-style: none;
-	background-color: #111;
+	background-color: #fff;
 }
 
 .toc[open] {
-	color: #fff;
+	color: #222222;
 }
 
 .toc__title {
@@ -857,8 +857,8 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 .share__icon {
 	width: 32px;
 	height: 32px;
-	fill: #f8ae00;
-	stroke: #f8ae00;
+	fill: #999999;
+	stroke: #999999;
 }
 
 .share__icon:hover {
@@ -1019,7 +1019,7 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 	.post__content a,
 	.post__meta a,
 	.post__tag {
-		color: #000;
+		color: #999;
 		text-decoration: underline;
 	}
 
